@@ -956,7 +956,7 @@
             const prices = document.querySelectorAll('.menu-item-price');
             prices.forEach(price => {
                 // Already added via CSS, but this ensures it's there
-                if (!price.textContent.startsWith('₱')) {
+                if (!price.textContent.startsWith('')) {
                     price.textContent = '₱' + price.textContent;
                 }
             });
@@ -964,3 +964,4 @@
     </script>
 </body>
 </html>
+
